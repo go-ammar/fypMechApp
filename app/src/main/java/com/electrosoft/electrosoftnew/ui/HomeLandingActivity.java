@@ -52,7 +52,6 @@ public class HomeLandingActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-
         if (item.getItemId() == R.id.logoutBtn) {
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
             startActivity(intent);
@@ -69,7 +68,8 @@ public class HomeLandingActivity extends AppCompatActivity {
                 new AppBarConfiguration.Builder(
                         R.id.nav_dashboard,
                         R.id.nav_notifications,
-                        R.id.nav_contact, R.id.nav_about)
+                        R.id.nav_contact,
+                        R.id.nav_about)
                         .setOpenableLayout(binding.drawerLayout)
                         .build();
 

@@ -140,7 +140,8 @@
         <argument
             android:name="_id"
             android:defaultValue="default"
-            app:argType="string" />
+            app:argType="string"
+            />
         <action
             android:id="@+id/action_devicePerRoomFragment_to_sensorPerDevice"
             app:destination="@id/sensorPerDevice"
@@ -192,11 +193,6 @@
             android:defaultValue="null"
             app:argType="string" />
     </fragment>
-
-
-
-
-
 
 
 </navigation>
